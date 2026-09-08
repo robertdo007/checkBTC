@@ -59,7 +59,7 @@ bot.on('text', async (ctx) => {
         await handleCheckCommand(ctx, '4h', 'btc_4h_analysis.csv');
     }
     else if (message.startsWith('check1d') || message.startsWith('find1d')) {
-        await handleCheckCommand(ctx, '1d', 'btc_1d_analysis.csv');
+        await handleCheckCommand(ctx, '1d', 'btc_analysis.csv');
     }
 });
 
