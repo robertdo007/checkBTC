@@ -1,5 +1,5 @@
 import { Telegraf } from 'telegraf';
-import { getPatternHistory } from './analyzer.js';
+import { getPatternHistory } from './analyzercheck.js';
 
 const bot = new Telegraf('8890158199:AAHRGJbPooy0zQvXTNxano3hx9MKra1-g4w');
 
